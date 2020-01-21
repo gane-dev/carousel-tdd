@@ -3,7 +3,7 @@ import CarouselButton from "./CarouselButton";
 
 class Carousel extends React.PureComponent {
   state = {
-    slideIndex: 0
+    slideIndex: 0,
   };
   handlePrevClick = () => {
     this.setState(({ slideIndex }) => ({ slideIndex: slideIndex - 1 }));
